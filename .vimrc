@@ -61,6 +61,8 @@ let $FZF_DEFAULT_OPTS='--reverse'
 nnoremap <leader>pw :Rg <C-R>=expand("<cword>")<CR><CR>
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
+nnoremap <leader>k :wincmd k<Cr>
+nnoremap <leader>l :wincmd l<Cr>
 nnoremap <leader>u :UndotreeShow<CR>
 nnoremap <Leader>ps :Rg<SPACE>
 nnoremap <C-p> :Files<CR>
